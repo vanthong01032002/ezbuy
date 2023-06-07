@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EZbuy</title>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/home.css">
+
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap/owl.carousel.min.css">
+
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500;700;800&display=swap" />
+
+  <script src="https://kit.fontawesome.com/4b31b094ff.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+  
+</head>
+<body>
+  <div class="e-commerce-product-list">
+    <!-- ----header---- -->
+<div class="header">
+    <input class="text-input" type="search" id="search" />
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <!-- -------- -->
+    <div class="highlight">
+        <ul id="">
+            <p id="searchResult"><span style="margin-right:10px;"><img
+                        src="./images/search-results.png" alt=""
+                        style="width:26px;"></span>Tìm kiếm với ""</p>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
+        <hr>
+        <div class="search-popular">
+            <p><span style="margin-right:10px;"><img src="./images/search-popular.png"
+                        alt="" style="width:26px;"></span>Tìm kiếm phổ biến</p>
+        </div>
+    </div>
+    <!-- -------- -->
+    <a class="button" href="#" style = "text-decoration: none;">
+        <div class="button-title button-title-color" style="cursor: pointer;">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="button-title1">Giỏ hàng</div>
+        </div>
+    </a>
+    <a class="button1">
+        <div class="button-title button-title-color" id="notify" style="cursor: pointer;">
+            <i class="fa-solid fa-bell"></i>
+            <div class="button-title1">Thông báo</div>
+        </div>
+    </a>
+    <div class="notify-block">
+        <div class="notify-h4">Thông báo đã nhận</div>
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://thuvienmuasam.com/uploads/default/original/2X/c/c19aa32824e0d745ca958c2a7a9108e67ddefd8e.jpeg"
+                        alt="" style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">MÃ GIẢM GIÁ 50% CHO CÁC SẢN PHẨM CÓ ĐƠN HÀNG TRÊN
+                        100,000 đ
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+                đặc biệt và những Voucher
+                cực kỳ hữu ích cho việc mua sắm điện thoại trên Shopee</p>
+        </div>
+
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://media.vneconomy.vn/w800/images/upload/2022/06/25/1.jpg" alt=""
+                        style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">SHOPEE TUNG LOẠT ƯU ĐÃI HẤP DẪN: "25/6 LƯƠNG VỀ SALE
+                        TO" - NHỊP SỐNG KINH TẾ VIỆT NAM & THẾ GIỚI
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+                đặc biệt và những Voucher
+                cực kỳ hữu ích cho việc mua sắm điện thoại trên Shopee</p>
+        </div>
+
+
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://static-images.vnncdn.net/files/publish/2022/12/10/shopee-1-615.png" alt=""
+                        style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">MÃ GIẢM GIÁ 50% CHO CÁC SẢN PHẨM CÓ ĐƠN HÀNG TRÊN
+                        100,000 đ
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+                đặc biệt và những Voucher
+                cực kỳ hữu ích cho việc mua sắm điện thoại trên Shopee</p>
+        </div>
+
+
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://i0.wp.com/kiemtienonlinetop1.com/wp-content/uploads/2022/03/ma-giam-gia-shopee.png?fit=1920%2C1080&ssl=1"
+                        alt="" style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">MÃ GIẢM GIÁ SHOPEE LÊN ĐẾN 500K VÀO SĂN NGAY THÔI NÀO
+                        !!
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+            </p>
+        </div>
+
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://trangdichvu.com/wp-content/uploads/2021/12/cach-lay-voucher-giam-gia-shopee-tu-free-fire.png"
+                        alt="" style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">MÃ GIẢM GIÁ 50% CHO CÁC SẢN PHẨM CÓ ĐƠN HÀNG TRÊN
+                        100,000 đ
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+                đặc biệt và những Voucher
+                cực kỳ hữu ích cho việc mua sắm điện thoại trên Shopee</p>
+        </div>
+
+        <div class="notify-item">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="https://voucherviet.com/wp-content/uploads/2023/04/Ma-giam-gia-shopee.webp" alt=""
+                        style="width:46px;height:46px;  object-fit: contain;">
+                </div>
+                <div class="col-sm-10">
+                    <h6 style="font-size:14px;padding-right:20px;">MÃ GIẢM GIÁ 50% CHO CÁC SẢN PHẨM CÓ ĐƠN HÀNG TRÊN
+                        100,000 đ
+                    </h6>
+                </div>
+                <div class="notify-item-close close-button">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p style="font-size:12px; color: #000000ae;">💥 Hãy chuẩn bị sẵn sàng để tận hưởng ưu đãi hấp dẫn, giảm giá
+                đặc biệt và những Voucher
+                cực kỳ hữu ích cho việc mua sắm điện thoại trên Shopee</p>
+        </div>
+
+
+
+
+    </div>
+    <a class="button2" href="" style = "text-decoration: none;">
+        <div class="button-title button-title-color" style="cursor: pointer;">
+            <i class="fa-solid fa-house"></i>
+            <div class="button-title1">Trang chủ</div>
+        </div>
+    </a>
+    <div class="categories">
+        <div class="button3">
+            <div class="button-title6" onclick="scrollToSidebar(1)">
+                <div class="button-title1">Bán chạy nhất</div>
+            </div>
+        </div>
+        <div class="button4">
+            <h4 class="button-title8">
+                <h4 class="button-title9" onclick="scrollToSidebar(2)">Sản phẩm mới</h4>
+            </h4>
+        </div>
+        <div class="button5">
+            <h4 class="button-title8">
+                <h4 class="button-title9" onclick="scrollToSidebar(3)">Ưu đãi</h4>
+            </h4>
+        </div>
+
+        <h4 class="button6">
+            <div class="button-title6">
+                <h4 class="button-title9" onclick="scrollToSidebar(4)">Đánh giá cao</h4>
+            </div>
+        </h4>
+    </div>
+
+    <div class="button7">
+        <div class="button-title">
+            <i class="fa-solid fa-location-dot"></i>
+            <div class="button-title1">Giao đến: <span><a href="#">Q.Bình trị đông, thành phố hồ chí minh</a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="button8" id="login">
+        <div class="button-title6">
+            <div class="button-title1"><a href="" style="text-decoration: none;color: black;">Đăng nhập</a></div>
+        </div>
+    </div>
+
+    <div class="button9">
+        <div class="button-title" id="category-main">
+            <i class="fa-solid fa-bars" style="color:#fff;"></i>
+            <div class="danh-mc">Thể loại</div>
+            <img src="./images/down-arrow.png" alt=""
+                style="width:20px;margin-top:2px;">
+        </div>
+    </div>
+
+    <div class="category-block">
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;margin-top:10px;">1</div>
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;">2</div>
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;">3</div>
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;">4</div>
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;">5</div>
+        <div class="category-item" style="border-radius:0px;padding:12px 12px;">6</div>
+    </div>
+
+    <div class="tiki">Logo</div>
+    <div class="divider"></div>
+</div>
+
+<!-- ----main---- -->
+<main>
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="category" id="category">
+        <h4>Danh mục</h4>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/54/c0/ff/fe98a4afa2d3e5142dc8096addc4e40b.png.webp"
+            alt="">
+          <p> Điện thoại - Laptop</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/73/0e/89/d7ca146de7198a6808580239e381a0c8.png.webp"
+            alt="">
+          <p>Làm đẹp - Sức khỏe</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/61/d4/ea/e6ea3ffc1fcde3b6224d2bb691ea16a2.png.webp"
+            alt="">
+          <p> Điện gia dụng</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+        <div class="category-item"><img
+            src="https://salt.tikicdn.com/cache/100x100/ts/category/13/64/43/226301adcc7660ffcf44a61bb6df99b7.png.webp"
+            alt="">
+          <p> Đồ chơi - Mẹ và Bé</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-sm-10" id="product">
+      <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Trending item</p>
+
+              <h2 class="banner-title">Women's latest fashion sale</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>20</b>.00
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Trending accessories</p>
+
+              <h2 class="banner-title">Modern sunglasses</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>15</b>.00
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Sale Offer</p>
+
+              <h2 class="banner-title">New fashion summer sale</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>29</b>.99
+              </p>
+
+              <a href="#" class="banner-btn">Shop now</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+      <div class="attractive" id="bestseller-item">
+        <h4>Bán chạy nhất</h4>
+      </div>
+
+      <div class="attractive" id="sell-item">
+        <h4>Ưu đãi</h4>
+      </div>
+
+      <div class="attractive" id="newProducts-item">
+        <h4>Sản phẩm mới</h4>
+      </div>
+
+      <div class="attractive" id="Evaluate-item">
+        <h4>Đánh giá cao</h4>
+      </div>
+
+      <div class="suggest">
+        <h4>Gợi ý của bạn</h4>
+        <div class="row">
+          <div class="col-sm-2 suggest-item suggest-active" onclick="scrollToSidebar(10)">
+            <img src="./images/best-employee.png" alt=""
+              style="margin: 0 auto;display: block;width:35px;margin-bottom:3px;margin-top:10px;">
+            <p>Dành cho bạn</p>
+          </div>
+
+          <div class="col-sm-2 suggest-item" onclick="scrollToSidebar(10)">
+            <img src="./images/best-employee.png" alt=""
+              style="margin: 0 auto;display: block;width:35px;margin-bottom:3px;margin-top:10px;">
+            <p>Giá sốc</p>
+          </div>
+
+          <div class="col-sm-2 suggest-item" onclick="scrollToSidebar(10)">
+            <img src="./images/best-employee.png" alt=""
+              style="margin: 0 auto;display: block;width:35px;margin-bottom:3px;margin-top:10px;">
+            <p>FreeShip</p>
+          </div>
+
+          <div class="col-sm-2 suggest-item" onclick="scrollToSidebar(10)">
+            <img src="./images/best-employee.png" alt=""
+              style="margin: 0 auto;display: block;width:35px;margin-bottom:3px;margin-top:10px;">
+            <p>Thành viên Vip</p>
+          </div>
+
+          <div class="col-sm-2 suggest-item" onclick="scrollToSidebar(10)">
+            <img src="./images/best-employee.png" alt=""
+              style="margin: 0 auto;display: block;width:35px;margin-bottom:3px;margin-top:10px;">
+            <p>Thương hiệu tốt</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="product">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <div class="product-item">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attractive"></div>
+
+
+    </div>
+  </div>
+  <button id="scroll-to-top-button"></button>
+</main>
+<!-- ----!main---- -->
+
+<script>
+
+
+  var product = document.getElementById('product');
+  var category = document.getElementById('category');
+
+  var searchInput = document.getElementById('search');
+  var searchResult = document.getElementById('searchResult');
+  var searchImg = searchResult.querySelector('img');
+
+  searchInput.addEventListener('input', function () {
+    var inputValue = searchInput.value;
+    searchResult.textContent = ''; // Xóa nội dung hiện tại của thẻ p
+
+    var spanElement = document.createElement('span');
+    spanElement.style.marginRight = '10px';
+    spanElement.appendChild(searchImg);
+
+    var textNode = document.createTextNode('Tìm kiếm với "' + inputValue + '"');
+    searchResult.appendChild(spanElement);
+    searchResult.appendChild(textNode);
+  });
+
+  function scrollToSidebar(value) {
+    // Lấy vị trí của phần tử div "product"
+    const bestseller_item = document.getElementById("bestseller-item");
+    const sell_item = document.getElementById("sell-item");
+    const newProducts_item = document.getElementById("newProducts-item");
+    const Evaluate_item = document.getElementById("Evaluate-item");
+    const product = document.querySelector(".product");
+
+    const bestsellerPosition = bestseller_item.offsetTop + 10;
+    const sellPosition = sell_item.offsetTop + 10;
+    const newproductPosition = newProducts_item.offsetTop + 10;
+    const EvaluatePosition = Evaluate_item.offsetTop + 10;
+    const productPosition = product.offsetTop + 100;
+
+    if (value == 1) {
+      window.scrollTo({
+        top: bestsellerPosition,
+        behavior: "smooth"
+      });
+    }
+
+    if (value == 2) {
+      window.scrollTo({
+        top: newproductPosition,
+        behavior: "smooth"
+      });
+    }
+
+    if (value == 3) {
+      window.scrollTo({
+        top: sellPosition,
+        behavior: "smooth"
+      });
+    }
+
+    if (value == 4) {
+      window.scrollTo({
+        top: EvaluatePosition,
+        behavior: "smooth"
+      });
+    }
+
+    if (value == 10) {
+      window.scrollTo({
+        top: productPosition,
+        behavior: "smooth"
+      });
+
+    }
+  }
+
+  product.addEventListener("mouseover", function () {
+    window.addEventListener('scroll', function () {
+
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+      // Khoảng cách từ phần tử "category" đến đầu trang
+      var categoryOffsetTop = category.offsetTop;
+
+      // Chiều cao của thanh cuộn
+      var scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+      // Nếu thanh cuộn đã cuộn đến đầu trang
+      if (scrollTop >= 143) {
+
+        category.style = 'position: fixed;'
+
+        category.style.top = '10px';
+
+      }
+      else {
+        category.style.position = null;
+
+      }
+    });
+  });
+
+  category.addEventListener("mouseover", function () {
+    window.addEventListener('scroll', function () {
+      category.style.position = null;
+    })
+  });
+
+  var searchInput = document.getElementById('search');
+  var highlightDiv = document.querySelector('.highlight');
+
+  searchInput.addEventListener('focus', function () {
+    highlightDiv.style.display = 'block'; // Hiển thị thẻ div khi input được focus
+  });
+
+  searchInput.addEventListener('blur', function () {
+    highlightDiv.style.display = 'none'; // Ẩn thẻ div khi input mất focus
+  });
+
+  // active gợi ý
+  // Lấy tất cả các phần tử có lớp "col-sm-2"
+  var elements = document.getElementsByClassName("suggest-item");
+
+  // Duyệt qua từng phần tử và gán sự kiện click cho chúng
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].addEventListener("click", function () {
+      // Xóa lớp suggest-active khỏi tất cả các phần tử có lớp "col-sm-2"
+      for (var j = 0; j < elements.length; j++) {
+        elements[j].classList.remove("suggest-active");
+      }
+
+      // Thêm lớp suggest-active vào phần tử được nhấp
+      this.classList.add("suggest-active");
+    });
+  }
+
+  var notifyButton = document.getElementById('notify');
+  var notifyBlock = document.querySelector('.notify-block');
+
+  // Đăng ký sự kiện click cho nút notify
+  notifyButton.addEventListener("click", function () {
+
+    if (notifyBlock.style.display === 'block') {
+      notifyBlock.style.display = 'none';
+    } else {
+      notifyBlock.style.display = 'block';
+    }
+  });
+
+  // Đăng ký sự kiện click bên ngoài notify-block để ẩn nó
+  document.addEventListener("click", function (event) {
+    if (!notifyButton.contains(event.target) && !notifyBlock.contains(event.target)) {
+      notifyBlock.style.display = "none";
+    }
+  });
+
+  var categoryButton = document.getElementById('category-main');
+  var categoryBlock = document.querySelector('.category-block');
+
+  // Đăng ký sự kiện click cho nút notify
+  categoryButton.addEventListener("click", function () {
+
+    if (categoryBlock.style.display === 'block') {
+      categoryBlock.style.display = 'none';
+    } else {
+      categoryBlock.style.display = 'block';
+    }
+  });
+
+  // Đăng ký sự kiện click bên ngoài notify-block để ẩn nó
+  document.addEventListener("click", function (event) {
+    if (!categoryButton.contains(event.target) && !categoryBlock.contains(event.target)) {
+      categoryBlock.style.display = "none";
+    }
+  });
+
+
+  // ẩn thông báo item
+
+  var closeButtonList = document.querySelectorAll('.close-button');
+
+  closeButtonList.forEach(function (closeButton) {
+    closeButton.addEventListener('click', function () {
+      var notifyItem = closeButton.closest('.notify-item');
+
+      notifyItem.classList.add('hide-animation');
+
+      notifyItem.addEventListener('animationend', function () {
+        notifyItem.style.display = 'none';
+      });
+    });
+  });
+
+  var carousel = document.querySelector('.carousel-slide');
+  var items = carousel.querySelectorAll('.carouselitem');
+  var currentItem = 0;
+  var slideInterval = setInterval(nextSlide, 5000);
+
+  function nextSlide() {
+    currentItem = (currentItem + 1) % items.length;
+    carousel.classList.add('animate'); /* Thêm class 'animate' */
+    carousel.style.transform = 'translateX(' + (currentItem * -500) + 'px)';
+
+    setTimeout(function () {
+      carousel.classList.remove('animate'); /* Xóa class 'animate' */
+    }, 2000); /* Đợi 2s trước khi xóa class 'animate' */
+  }
+  document.getElementById('scroll-to-top-button').addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+
+  window.addEventListener('scroll', function () {
+    // Lấy vị trí hiện tại của trang
+    var currentScrollPosition = window.pageYOffset;
+
+    // Nếu người dùng đã kéo trang xuống khoảng cách 100px từ đầu trang, hiển thị nút bấm
+    if (currentScrollPosition > 170) {
+      document.getElementById('scroll-to-top-button').style.display = 'block';
+    } else { // Ngược lại
+      document.getElementById('scroll-to-top-button').style.display = 'none';
+    }
+  });
+</script>
+
+  </div>
+
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="./js/jquery-ui.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/jquery.stellar.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="./js/jquery.magnific-popup.min.js"></script>
+  <script src="./js/bootstrap-datepicker.min.js"></script>
+  <script src="./js/aos.js"></script>
+
+  
+  <script src="./js/mediaelement-and-player.min.js"></script>
+
+  <script src="./js/main.js"></script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/647ec72294cf5d49dc5c067e/1h27jjnup';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+</html>
